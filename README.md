@@ -1,7 +1,7 @@
 
 Our code is modified based on DNABERT. For more information about DNABERT, please refer to [DNABERT](https://github.com/jerryji1993/DNABERT)
 
-# msBert-Promoter
+# msBERT-Promoter
 A promoter is a specific sequence in DNA that has transcriptional regulatory functions, playing a role in initiating gene expression. Identifying promoters and their strengths can provide valuable information related to human diseases. In recent years, computational methods have gained prominence as an effective means for identifying promoter, offering a more efficient alternative to labor-intensive biological approaches. In this study, a two-stage integrated predictor called "msBERT-Promoter" is proposed for identifying promoters and predicting their strengths. The model incorporates multi-scale sequence information through a tokenization strategy and fine-tunes the DNABERT model. Soft voting is then used to fuse the multi-scale information, effectively addressing the issue of insufficient DNA sequence information extraction in traditional models. To the best of our knowledge, this is the first time an integrated approach has been used in the DNABERT model for promoter identification and strength prediction. Our model achieves accuracy rates of 96.2% for promoter identification and 79.8% for promoter strength prediction, significantly outperforming existing methods. Furthermore, through attention mechanism analysis, we demonstrate that our model can effectively combine local and global sequence information, enhancing its interpretability. This work paves a new path for the application of artificial intelligence in traditional biology.
 
 
